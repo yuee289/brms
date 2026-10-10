@@ -95,7 +95,13 @@ fit <- brm(rating ~ treat + period + carry + (1|subject),
            data = inhaler, cores = 2)
 #> Compiling Stan program...
 #> Start sampling
-#> :                2.337 seconds (Total)
+#> )
+#> Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+#> Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+#> Chain 2: 
+#> Chain 2:  Elapsed Time: 1.492 seconds (Warm-up)
+#> Chain 2:                0.853 seconds (Sampling)
+#> Chain 2:                2.345 seconds (Total)
 #> Chain 2: 
 
 ## extract predictive errors

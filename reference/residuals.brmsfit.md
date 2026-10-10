@@ -127,18 +127,10 @@ fit <- brm(rating ~ treat + period + carry + (1|subject),
            data = inhaler, cores = 2)
 #> Compiling Stan program...
 #> Start sampling
-#> 0 [100%]  (Sampling)
-#> Chain 2: 
-#> Chain 2:  Elapsed Time: 1.554 seconds (Warm-up)
-#> Chain 2:                0.741 seconds (Sampling)
-#> Chain 2:                2.295 seconds (Total)
-#> Chain 2: 
-#> Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
-#> Chain 1: 
-#> Chain 1:  Elapsed Time: 1.612 seconds (Warm-up)
-#> Chain 1:                0.737 seconds (Sampling)
-#> Chain 1:                2.349 seconds (Total)
-#> Chain 1: 
+#> 
+#> Warning: Tail Effective Samples Size (ESS) is too low, indicating posterior variances and tail quantiles may be unreliable.
+#> Running the chains for more iterations may help. See
+#> https://mc-stan.org/misc/warnings.html#tail-ess
 
 ## extract residuals/predictive errors
 res <- residuals(fit)

@@ -68,8 +68,8 @@ fit <- brm(x ~ arma(p = 2, q = 1), data = LakeHuron)
 #> 
 #> SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
 #> Chain 1: 
-#> Chain 1: Gradient evaluation took 3.4e-05 seconds
-#> Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.34 seconds.
+#> Chain 1: Gradient evaluation took 4.4e-05 seconds
+#> Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.44 seconds.
 #> Chain 1: Adjust your expectations accordingly!
 #> Chain 1: 
 #> Chain 1: 
@@ -86,15 +86,15 @@ fit <- brm(x ~ arma(p = 2, q = 1), data = LakeHuron)
 #> Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
 #> Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
 #> Chain 1: 
-#> Chain 1:  Elapsed Time: 7.091 seconds (Warm-up)
-#> Chain 1:                0.742 seconds (Sampling)
-#> Chain 1:                7.833 seconds (Total)
+#> Chain 1:  Elapsed Time: 5.303 seconds (Warm-up)
+#> Chain 1:                0.613 seconds (Sampling)
+#> Chain 1:                5.916 seconds (Total)
 #> Chain 1: 
 #> 
 #> SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).
 #> Chain 2: 
-#> Chain 2: Gradient evaluation took 3e-05 seconds
-#> Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.3 seconds.
+#> Chain 2: Gradient evaluation took 3.4e-05 seconds
+#> Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.34 seconds.
 #> Chain 2: Adjust your expectations accordingly!
 #> Chain 2: 
 #> Chain 2: 
@@ -111,15 +111,15 @@ fit <- brm(x ~ arma(p = 2, q = 1), data = LakeHuron)
 #> Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
 #> Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
 #> Chain 2: 
-#> Chain 2:  Elapsed Time: 29.074 seconds (Warm-up)
-#> Chain 2:                31.594 seconds (Sampling)
-#> Chain 2:                60.668 seconds (Total)
+#> Chain 2:  Elapsed Time: 22.126 seconds (Warm-up)
+#> Chain 2:                24.093 seconds (Sampling)
+#> Chain 2:                46.219 seconds (Total)
 #> Chain 2: 
 #> 
 #> SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).
 #> Chain 3: 
-#> Chain 3: Gradient evaluation took 3e-05 seconds
-#> Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.3 seconds.
+#> Chain 3: Gradient evaluation took 3.4e-05 seconds
+#> Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.34 seconds.
 #> Chain 3: Adjust your expectations accordingly!
 #> Chain 3: 
 #> Chain 3: 
@@ -136,15 +136,15 @@ fit <- brm(x ~ arma(p = 2, q = 1), data = LakeHuron)
 #> Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
 #> Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
 #> Chain 3: 
-#> Chain 3:  Elapsed Time: 2.676 seconds (Warm-up)
-#> Chain 3:                5.721 seconds (Sampling)
-#> Chain 3:                8.397 seconds (Total)
+#> Chain 3:  Elapsed Time: 2.015 seconds (Warm-up)
+#> Chain 3:                4.255 seconds (Sampling)
+#> Chain 3:                6.27 seconds (Total)
 #> Chain 3: 
 #> 
 #> SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).
 #> Chain 4: 
-#> Chain 4: Gradient evaluation took 3.3e-05 seconds
-#> Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.33 seconds.
+#> Chain 4: Gradient evaluation took 2.7e-05 seconds
+#> Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.27 seconds.
 #> Chain 4: Adjust your expectations accordingly!
 #> Chain 4: 
 #> Chain 4: 
@@ -161,9 +161,9 @@ fit <- brm(x ~ arma(p = 2, q = 1), data = LakeHuron)
 #> Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
 #> Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
 #> Chain 4: 
-#> Chain 4:  Elapsed Time: 3.026 seconds (Warm-up)
-#> Chain 4:                0.574 seconds (Sampling)
-#> Chain 4:                3.6 seconds (Total)
+#> Chain 4:  Elapsed Time: 2.283 seconds (Warm-up)
+#> Chain 4:                0.475 seconds (Sampling)
+#> Chain 4:                2.758 seconds (Total)
 #> Chain 4: 
 #> Warning: There were 51 divergent transitions after warmup. See
 #> https://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
